@@ -1,1 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+
+/* Header */
+
+header{
+    background-image: url(../img/Header-bg.webp);
+    background: radial-gradient(ellipse at top left,  #5096ffd6 0%, #5096ff6b 10%) ;
+}
+
+header nav{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    z-index: 1;
+}
+
+header nav ul li{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    transition: all .2s ease;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li:hover{
+    transform: scale(1.2);
+}
+
+header .header-wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-wrapper section{
+    width: 50%;
+}
+
+header .header-wrapper section:first-child{
+    margin-top: 150px;
+}
+
+header .header-wrapper section h1{
+    font-family: 'Nunito Sans';
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 86px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+header .header-wrapper section p{
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #585C65;
+    margin: 0;
+    margin-bottom: 28px;
+}
+
+header .header-wrapper section button{
+    background-color: #0D76D8;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    padding: 15px 42px;
+    border: none;
+    transition: all .2s linear;
+}
+
+header .header-wrapper section button:hover{
+    cursor: pointer;
+    background-color: #094f90;
+}
+
+header .header-wrapper section:last-child img{
+    margin-top: -100px;
+    z-index: -1;
+    margin-left: -135px;
+}
