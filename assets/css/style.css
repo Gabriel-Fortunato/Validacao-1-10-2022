@@ -134,6 +134,10 @@ main{
     gap: 150px;
 }
 
+main *:not(.blur){
+    z-index: 1;
+}
+
 main .gallery-title{
     width: 100%;
     max-width: 1200px;
@@ -142,6 +146,16 @@ main .gallery-title{
     display: flex;
     flex-direction: column;
     gap: 55px;
+}
+
+main .gallery-title > .blur{
+    position: absolute;
+    width: 397px;
+    height: 397px;
+    left: -68px;
+    top: 1411px;
+    background: #91BDFF;
+    filter: blur(200px);
 }
 
 main .gallery-title > h2{
@@ -254,6 +268,16 @@ main .feature-section > .feature-article > .feature-text > p{
     line-height: 32px;
     color: #585C65;
     margin: 0;
+}
+
+main .feature-section > .feature-article > .blur{
+    position: absolute;
+    width: 397px;
+    height: 397px;
+    left: 1129px;
+    top: 3052px;
+    background: #91BDFF;
+    filter: blur(200px);
 }
 
 /* Newsletter Section */
@@ -528,6 +552,10 @@ label[for="menu"]{
 
     main{
         padding-top: 100px;
+    }
+
+    main .gallery-title > .blur{
+        top: 1900px;
     }
 
     main .gallery-title{
