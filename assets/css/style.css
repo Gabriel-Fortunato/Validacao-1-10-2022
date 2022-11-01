@@ -555,7 +555,7 @@ label[for="menu"]{
 
     header .header-wrapper section:first-child{
         width: 90%;
-        margin: 150px auto;
+        margin: 50px auto;
         padding: 0;
     }
 
@@ -583,7 +583,7 @@ label[for="menu"]{
     }
 
     main .gallery-section > .gallery-box > .gallery-article{
-        width: 50%;
+        width: 80%;
         margin: auto;
         align-items: center;
         padding: 20px;
@@ -660,8 +660,8 @@ label[for="menu"]{
     
     header nav #menu:checked ~ ul{
         display: flex;
-        width: 25%;
-        height: 27%;
+        width: 33%;
+        height: 20%;
         flex-direction: column;
         position: absolute;
         top: 105px;
@@ -672,6 +672,7 @@ label[for="menu"]{
         z-index: 0;
         background-color: white;
         border-radius: 15px 0 0 15px;
+        gap: 45px;
     }
 
     header nav ul li{
